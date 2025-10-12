@@ -164,6 +164,11 @@ public class TwoSum {
 - **测试框架**: JUnit 5
 - **IDE**: IntelliJ IDEA
 
+## 📝 开发规范
+
+- [代码贡献指南](CONTRIBUTING.md)
+- [Git 提交规范](GIT_COMMIT_GUIDE.md) 
+
 ## 📚 参考资源
 
 - [LeetCode 中国官网](https://leetcode.cn/)
