@@ -18,13 +18,13 @@
 
 | 分类 | 已完成 | 总数 |
 |------|--------|------|
-| 数组 | 0 | 15 |
+| 数组 | 2 | 15 |
 | 链表 | 0 | 8 |
 | 哈希表 | 0 | 6 |
 | 字符串 | 0 | 8 |
 | 双指针 | 0 | 7 |
 | 滑动窗口 | 0 | 4 |
-| 栈 | 0 | 5 |
+| 栈 | 1 | 5 |
 | 堆 | 0 | 4 |
 | 贪心 | 0 | 6 |
 | 动态规划 | 0 | 18 |
@@ -33,7 +33,7 @@
 | 树 | 0 | 12 |
 | 图 | 0 | 6 |
 
-**总进度**: 0 / 100 ✨
+**总进度**: 3 / 100 ✨
 
 ## 📂 项目结构
 
@@ -76,7 +76,7 @@ leetcode-hot-100/
 
 ### 1. 克隆仓库
 ```bash
-git clone https://github.com/yourusername/leetcode-hot-100.git
+git clone git@github.com:Dxboy266/leetcode-hot-100.git
 cd leetcode-hot-100
 ```
 
@@ -148,14 +148,29 @@ public class TwoSum {
 
 ## 📊 题目列表
 
-*开始你的刷题之旅吧！*
-
-<!-- 
-示例格式：
 ### 数组
-- [ ] [1. 两数之和](src/main/java/com/leetcode/array/TwoSum.java) - 简单
+- [√] [1. 两数之和](src/main/java/com/leetcode/array/TwoSum.java) - 简单
+- [√] [283. 移动零](src/main/java/com/leetcode/array/MoveZeroes.java) - 简单
 - [ ] [53. 最大子数组和](src/main/java/com/leetcode/array/MaxSubArray.java) - 中等
--->
+- [ ] [88. 合并两个有序数组](src/main/java/com/leetcode/array/MergeSortedArray.java) - 简单
+- [ ] [169. 多数元素](src/main/java/com/leetcode/array/MajorityElement.java) - 简单
+- [ ] [189. 轮转数组](src/main/java/com/leetcode/array/RotateArray.java) - 中等
+- [ ] [217. 存在重复元素](src/main/java/com/leetcode/array/ContainsDuplicate.java) - 简单
+- [ ] [238. 除自身以外数组的乘积](src/main/java/com/leetcode/array/ProductExceptSelf.java) - 中等
+- [ ] [350. 两个数组的交集 II](src/main/java/com/leetcode/array/Intersect.java) - 简单
+- [ ] [448. 找到所有数组中消失的数字](src/main/java/com/leetcode/array/FindDisappearedNumbers.java) - 简单
+- [ ] [581. 最短无序连续子数组](src/main/java/com/leetcode/array/FindUnsortedSubarray.java) - 中等
+- [ ] [121. 买卖股票的最佳时机](src/main/java/com/leetcode/array/MaxProfit.java) - 简单
+- [ ] [122. 买卖股票的最佳时机 II](src/main/java/com/leetcode/array/MaxProfitII.java) - 中等
+- [ ] [152. 乘积最大子数组](src/main/java/com/leetcode/array/MaxProduct.java) - 中等
+- [ ] [11. 盛最多水的容器](src/main/java/com/leetcode/array/MaxArea.java) - 中等
+
+### 栈
+- [√] [20. 有效的括号](src/main/java/com/leetcode/stack/ValidParentheses.java) - 简单
+- [ ] [155. 最小栈](src/main/java/com/leetcode/stack/MinStack.java) - 简单
+- [ ] [394. 字符串解码](src/main/java/com/leetcode/stack/DecodeString.java) - 中等
+- [ ] [739. 每日温度](src/main/java/com/leetcode/stack/DailyTemperatures.java) - 中等
+- [ ] [84. 柱状图中最大的矩形](src/main/java/com/leetcode/stack/LargestRectangleArea.java) - 困难
 
 ## 🛠️ 技术栈
 
@@ -187,4 +202,4 @@ public class TwoSum {
 ⭐ 如果对你有帮助，欢迎 Star！
 
 **开始日期**: 2025-10-12  
-**最后更新**: 2025-10-12
+**最后更新**: 2025-10-14
