@@ -19,7 +19,7 @@
 | 分类 | 已完成 | 总数 |
 |------|--------|------|
 | 数组 | 2 | 15 |
-| 链表 | 0 | 8 |
+| 链表 | 1 | 8 |
 | 哈希表 | 0 | 6 |
 | 字符串 | 0 | 8 |
 | 双指针 | 0 | 7 |
@@ -33,7 +33,7 @@
 | 树 | 0 | 12 |
 | 图 | 0 | 6 |
 
-**总进度**: 3 / 100 ✨
+**总进度**: 4 / 100 ✨
 
 ## 📂 项目结构
 
@@ -172,6 +172,16 @@ public class TwoSum {
 - [ ] [739. 每日温度](src/main/java/com/leetcode/stack/DailyTemperatures.java) - 中等
 - [ ] [84. 柱状图中最大的矩形](src/main/java/com/leetcode/stack/LargestRectangleArea.java) - 困难
 
+### 链表
+- [√] [21. 合并两个有序链表](src/main/java/com/leetcode/linkedlist/MergeTwoSortedLists.java) - 简单
+- [ ] [141. 环形链表](src/main/java/com/leetcode/linkedlist/HasCycle.java) - 简单
+- [ ] [142. 环形链表 II](src/main/java/com/leetcode/linkedlist/DetectCycle.java) - 中等
+- [ ] [160. 相交链表](src/main/java/com/leetcode/linkedlist/GetIntersectionNode.java) - 简单
+- [ ] [206. 反转链表](src/main/java/com/leetcode/linkedlist/ReverseList.java) - 简单
+- [ ] [234. 回文链表](src/main/java/com/leetcode/linkedlist/IsPalindrome.java) - 简单
+- [ ] [19. 删除链表的倒数第 N 个结点](src/main/java/com/leetcode/linkedlist/RemoveNthFromEnd.java) - 中等
+- [ ] [148. 排序链表](src/main/java/com/leetcode/linkedlist/SortList.java) - 中等
+
 ## 🛠️ 技术栈
 
 - **JDK**: 8 或更高版本
@@ -202,4 +212,4 @@ public class TwoSum {
 ⭐ 如果对你有帮助，欢迎 Star！
 
 **开始日期**: 2025-10-12  
-**最后更新**: 2025-10-14
+**最后更新**: 2025-10-15

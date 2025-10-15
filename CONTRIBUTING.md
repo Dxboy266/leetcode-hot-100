@@ -47,8 +47,8 @@
  * ==================== 知识点总结 ====================
  * [相关知识点、易错点、相关题目]
  * 
- * @author Your Name
- * @date YYYY-MM-DD
+ * @Author Your Name
+ * @Date YYYY-MM-DD
  */
 ```
 
