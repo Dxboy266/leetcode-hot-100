@@ -21,7 +21,7 @@
 | 数组 | 2 | 15 |
 | 链表 | 1 | 8 |
 | 哈希表 | 0 | 6 |
-| 字符串 | 0 | 8 |
+| 字符串 | 1 | 8 |
 | 双指针 | 0 | 7 |
 | 滑动窗口 | 0 | 4 |
 | 栈 | 1 | 5 |
@@ -33,7 +33,7 @@
 | 树 | 0 | 12 |
 | 图 | 0 | 6 |
 
-**总进度**: 4 / 100 ✨
+**总进度**: 5 / 100 ✨
 
 ## 📂 项目结构
 
@@ -181,6 +181,16 @@ public class TwoSum {
 - [ ] [234. 回文链表](src/main/java/com/leetcode/linkedlist/IsPalindrome.java) - 简单
 - [ ] [19. 删除链表的倒数第 N 个结点](src/main/java/com/leetcode/linkedlist/RemoveNthFromEnd.java) - 中等
 - [ ] [148. 排序链表](src/main/java/com/leetcode/linkedlist/SortList.java) - 中等
+
+### 字符串
+- [√] [49. 字母异位词分组](src/main/java/com/leetcode/string/GroupAnagrams.java) - 中等
+- [ ] [242. 有效的字母异位词](src/main/java/com/leetcode/string/IsAnagram.java) - 简单
+- [ ] [438. 找到字符串中所有字母异位词](src/main/java/com/leetcode/string/FindAnagrams.java) - 中等
+- [ ] [567. 字符串的排列](src/main/java/com/leetcode/string/CheckInclusion.java) - 中等
+- [ ] [76. 最小覆盖子串](src/main/java/com/leetcode/string/MinWindow.java) - 困难
+- [ ] [3. 无重复字符的最长子串](src/main/java/com/leetcode/string/LengthOfLongestSubstring.java) - 中等
+- [ ] [5. 最长回文子串](src/main/java/com/leetcode/string/LongestPalindrome.java) - 中等
+- [ ] [647. 回文子串](src/main/java/com/leetcode/string/CountSubstrings.java) - 中等
 
 ## 🛠️ 技术栈
 
