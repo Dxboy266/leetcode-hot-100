@@ -20,9 +20,9 @@
 |------|--------|------|
 | 数组 | 2 | 15 |
 | 链表 | 1 | 8 |
-| 哈希表 | 0 | 6 |
+| 哈希表 | 1 | 6 |
 | 字符串 | 1 | 8 |
-| 双指针 | 0 | 7 |
+| 双指针 | 1 | 7 |
 | 滑动窗口 | 0 | 4 |
 | 栈 | 1 | 5 |
 | 堆 | 0 | 4 |
@@ -46,20 +46,17 @@ leetcode-hot-100/
 │   │           └── leetcode/
 │   │               ├── array/              # 数组相关题目
 │   │               │   ├── TwoSum.java
+│   │               │   ├── MoveZeroes.java
 │   │               │   └── ...
 │   │               ├── linkedlist/         # 链表相关题目
 │   │               ├── hashtable/          # 哈希表相关题目
 │   │               ├── string/             # 字符串相关题目
+│   │               │   ├── GroupAnagrams.java
+│   │               │   └── ...
 │   │               ├── twopointers/        # 双指针相关题目
-│   │               ├── slidingwindow/      # 滑动窗口相关题目
 │   │               ├── stack/              # 栈相关题目
-│   │               ├── heap/               # 堆相关题目
-│   │               ├── greedy/             # 贪心算法相关题目
 │   │               ├── dp/                 # 动态规划相关题目
-│   │               ├── backtrack/          # 回溯相关题目
-│   │               ├── binarysearch/       # 二分查找相关题目
 │   │               ├── tree/               # 树相关题目
-│   │               ├── graph/              # 图相关题目
 │   │               └── utils/              # 工具类（链表节点、树节点等）
 │   └── test/
 │       └── java/
@@ -67,6 +64,10 @@ leetcode-hot-100/
 │               └── leetcode/               # 对应的测试类
 │                   ├── array/
 │                   └── ...
+├── docs/                                   # 📝 刷题技巧总结文档
+│   ├── 双指针技巧.md
+│   ├── 哈希表分组技巧.md
+│   └── ...
 ├── pom.xml                                 # Maven配置文件
 ├── README.md                               # 项目说明
 └── .gitignore
@@ -149,8 +150,8 @@ public class TwoSum {
 ## 📊 题目列表
 
 ### 数组
-- [√] [1. 两数之和](src/main/java/com/leetcode/array/TwoSum.java) - 简单
-- [√] [283. 移动零](src/main/java/com/leetcode/array/MoveZeroes.java) - 简单
+- [√] [1. 两数之和](src/main/java/com/leetcode/array/TwoSum.java) - 简单 `哈希表` `一次遍历优化`
+- [√] [283. 移动零](src/main/java/com/leetcode/array/MoveZeroes.java) - 简单 `双指针` `原地修改`
 - [ ] [53. 最大子数组和](src/main/java/com/leetcode/array/MaxSubArray.java) - 中等
 - [ ] [88. 合并两个有序数组](src/main/java/com/leetcode/array/MergeSortedArray.java) - 简单
 - [ ] [169. 多数元素](src/main/java/com/leetcode/array/MajorityElement.java) - 简单
@@ -183,7 +184,7 @@ public class TwoSum {
 - [ ] [148. 排序链表](src/main/java/com/leetcode/linkedlist/SortList.java) - 中等
 
 ### 字符串
-- [√] [49. 字母异位词分组](src/main/java/com/leetcode/string/GroupAnagrams.java) - 中等
+- [√] [49. 字母异位词分组](src/main/java/com/leetcode/string/GroupAnagrams.java) - 中等 `哈希表` `字符串分组`
 - [ ] [242. 有效的字母异位词](src/main/java/com/leetcode/string/IsAnagram.java) - 简单
 - [ ] [438. 找到字符串中所有字母异位词](src/main/java/com/leetcode/string/FindAnagrams.java) - 中等
 - [ ] [567. 字符串的排列](src/main/java/com/leetcode/string/CheckInclusion.java) - 中等
@@ -191,6 +192,13 @@ public class TwoSum {
 - [ ] [3. 无重复字符的最长子串](src/main/java/com/leetcode/string/LengthOfLongestSubstring.java) - 中等
 - [ ] [5. 最长回文子串](src/main/java/com/leetcode/string/LongestPalindrome.java) - 中等
 - [ ] [647. 回文子串](src/main/java/com/leetcode/string/CountSubstrings.java) - 中等
+
+### 双指针
+- [√] [283. 移动零](src/main/java/com/leetcode/array/MoveZeroes.java) - 简单 `快慢指针`
+- [ ] [11. 盛最多水的容器](src/main/java/com/leetcode/array/MaxArea.java) - 中等
+- [ ] [15. 三数之和](src/main/java/com/leetcode/array/ThreeSum.java) - 中等
+- [ ] [42. 接雨水](src/main/java/com/leetcode/array/Trap.java) - 困难
+- [ ] 更多双指针题目...
 
 ## 🛠️ 技术栈
 
@@ -222,4 +230,5 @@ public class TwoSum {
 ⭐ 如果对你有帮助，欢迎 Star！
 
 **开始日期**: 2025-10-12  
-**最后更新**: 2025-10-15
+**最后更新**: 2025-10-17  
+**当前连续刷题**: 6天 🔥
