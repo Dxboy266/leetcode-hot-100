@@ -2,7 +2,7 @@
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-Hot%20100-orange.svg)](https://leetcode.cn/studyplan/top-100-liked/)
 [![Language](https://img.shields.io/badge/Language-Java-blue.svg)](https://www.java.com/)
-[![Progress](https://img.shields.io/badge/进度-5%2F100-brightgreen.svg)](https://github.com/yourusername/leetcode-hot-100)
+[![Progress](https://img.shields.io/badge/进度-8%2F100-brightgreen.svg)](https://github.com/yourusername/leetcode-hot-100)
 
 ## 📖 项目介绍
 
@@ -18,13 +18,13 @@
 
 | 分类 | 已完成 | 总数 |
 |------|--------|------|
-| 数组 | 2 | 15 |
+| 数组 | 4 | 15 |
 | 链表 | 1 | 8 |
 | 哈希表 | 1 | 6 |
 | 字符串 | 1 | 8 |
 | 双指针 | 1 | 7 |
 | 滑动窗口 | 0 | 4 |
-| 栈 | 1 | 5 |
+| 栈 | 2 | 5 |
 | 堆 | 0 | 4 |
 | 贪心 | 0 | 6 |
 | 动态规划 | 0 | 18 |
@@ -33,7 +33,7 @@
 | 树 | 0 | 12 |
 | 图 | 0 | 6 |
 
-**总进度**: 5 / 100 ✨
+**总进度**: 8 / 100 ✨
 
 ## 📂 项目结构
 
@@ -65,6 +65,8 @@ leetcode-hot-100/
 │                   ├── array/
 │                   └── ...
 ├── docs/                                   # 📝 刷题技巧总结文档
+│   ├── 前缀和+哈希表模板.md
+│   ├── 单调栈模板.md
 │   ├── 双指针技巧.md
 │   ├── 哈希表分组技巧.md
 │   └── ...
@@ -150,8 +152,10 @@ public class TwoSum {
 ## 📊 题目列表
 
 ### 数组
-- [√] [1. 两数之和](src/main/java/com/leetcode/array/TwoSum.java) - 简单 `哈希表` `一次遍历优化`
-- [√] [283. 移动零](src/main/java/com/leetcode/array/MoveZeroes.java) - 简单 `双指针` `原地修改`
+- [√] [1. 两数之和](src/main/java/com/leetcode/array/TwoSum.java) - 简单
+- [√] [283. 移动零](src/main/java/com/leetcode/array/MoveZeroes.java) - 简单
+- [√] [128. 最长连续序列](src/main/java/com/leetcode/array/LongestConsecutiveSequence.java) - 中等
+- [√] [560. 和为K的子数组](src/main/java/com/leetcode/array/SubarraySumEqualsK.java) - 中等
 - [ ] [53. 最大子数组和](src/main/java/com/leetcode/array/MaxSubArray.java) - 中等
 - [ ] [88. 合并两个有序数组](src/main/java/com/leetcode/array/MergeSortedArray.java) - 简单
 - [ ] [169. 多数元素](src/main/java/com/leetcode/array/MajorityElement.java) - 简单
@@ -168,9 +172,9 @@ public class TwoSum {
 
 ### 栈
 - [√] [20. 有效的括号](src/main/java/com/leetcode/stack/ValidParentheses.java) - 简单
+- [√] [739. 每日温度](src/main/java/com/leetcode/stack/DailyTemperatures.java) - 中等
 - [ ] [155. 最小栈](src/main/java/com/leetcode/stack/MinStack.java) - 简单
 - [ ] [394. 字符串解码](src/main/java/com/leetcode/stack/DecodeString.java) - 中等
-- [ ] [739. 每日温度](src/main/java/com/leetcode/stack/DailyTemperatures.java) - 中等
 - [ ] [84. 柱状图中最大的矩形](src/main/java/com/leetcode/stack/LargestRectangleArea.java) - 困难
 
 ### 链表
@@ -184,7 +188,7 @@ public class TwoSum {
 - [ ] [148. 排序链表](src/main/java/com/leetcode/linkedlist/SortList.java) - 中等
 
 ### 字符串
-- [√] [49. 字母异位词分组](src/main/java/com/leetcode/string/GroupAnagrams.java) - 中等 `哈希表` `字符串分组`
+- [√] [49. 字母异位词分组](src/main/java/com/leetcode/string/GroupAnagrams.java) - 中等
 - [ ] [242. 有效的字母异位词](src/main/java/com/leetcode/string/IsAnagram.java) - 简单
 - [ ] [438. 找到字符串中所有字母异位词](src/main/java/com/leetcode/string/FindAnagrams.java) - 中等
 - [ ] [567. 字符串的排列](src/main/java/com/leetcode/string/CheckInclusion.java) - 中等
@@ -192,13 +196,6 @@ public class TwoSum {
 - [ ] [3. 无重复字符的最长子串](src/main/java/com/leetcode/string/LengthOfLongestSubstring.java) - 中等
 - [ ] [5. 最长回文子串](src/main/java/com/leetcode/string/LongestPalindrome.java) - 中等
 - [ ] [647. 回文子串](src/main/java/com/leetcode/string/CountSubstrings.java) - 中等
-
-### 双指针
-- [√] [283. 移动零](src/main/java/com/leetcode/array/MoveZeroes.java) - 简单 `快慢指针`
-- [ ] [11. 盛最多水的容器](src/main/java/com/leetcode/array/MaxArea.java) - 中等
-- [ ] [15. 三数之和](src/main/java/com/leetcode/array/ThreeSum.java) - 中等
-- [ ] [42. 接雨水](src/main/java/com/leetcode/array/Trap.java) - 困难
-- [ ] 更多双指针题目...
 
 ## 🛠️ 技术栈
 
@@ -230,5 +227,5 @@ public class TwoSum {
 ⭐ 如果对你有帮助，欢迎 Star！
 
 **开始日期**: 2025-10-12  
-**最后更新**: 2025-10-17  
-**当前连续刷题**: 6天 🔥
+**最后更新**: 2025-10-20  
+**当前连续刷题**: 9天 🔥
