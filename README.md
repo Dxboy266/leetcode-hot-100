@@ -2,7 +2,7 @@
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-Hot%20100-orange.svg)](https://leetcode.cn/studyplan/top-100-liked/)
 [![Language](https://img.shields.io/badge/Language-Java-blue.svg)](https://www.java.com/)
-[![Progress](https://img.shields.io/badge/进度-8%2F100-brightgreen.svg)](https://github.com/yourusername/leetcode-hot-100)
+[![Progress](https://img.shields.io/badge/进度-12%2F100-brightgreen.svg)](https://github.com/yourusername/leetcode-hot-100)
 
 ## 📖 项目介绍
 
@@ -17,23 +17,23 @@
 ## 🎯 刷题进度
 
 | 分类 | 已完成 | 总数 |
-|------|--------|------|
-| 数组 | 4 | 15 |
-| 链表 | 1 | 8 |
-| 哈希表 | 1 | 6 |
-| 字符串 | 1 | 8 |
-| 双指针 | 1 | 7 |
-| 滑动窗口 | 0 | 4 |
-| 栈 | 2 | 5 |
-| 堆 | 0 | 4 |
-| 贪心 | 0 | 6 |
-| 动态规划 | 0 | 18 |
-| 回溯 | 0 | 6 |
-| 二分查找 | 0 | 5 |
-| 树 | 0 | 12 |
-| 图 | 0 | 6 |
+|------|----|----|
+| 数组 | 4  | 15 |
+| 链表 | 7  | 14 |
+| 哈希表 | 1  | 6  |
+| 字符串 | 1  | 8  |
+| 双指针 | 1  | 7  |
+| 滑动窗口 | 0  | 4  |
+| 栈 | 2  | 5  |
+| 堆 | 0  | 4  |
+| 贪心 | 0  | 6  |
+| 动态规划 | 0  | 18 |
+| 回溯 | 0  | 6  |
+| 二分查找 | 0  | 5  |
+| 树 | 0  | 12 |
+| 图 | 0  | 6  |
 
-**总进度**: 8 / 100 ✨
+**总进度**: 12 / 100 ✨
 
 ## 📂 项目结构
 
@@ -178,13 +178,15 @@ public class TwoSum {
 - [ ] [84. 柱状图中最大的矩形](src/main/java/com/leetcode/stack/LargestRectangleArea.java) - 困难
 
 ### 链表
+- [√] [2. 两数相加](src/main/java/com/leetcode/linkedlist/AddTwoNumbers.java) - 中等
 - [√] [21. 合并两个有序链表](src/main/java/com/leetcode/linkedlist/MergeTwoSortedLists.java) - 简单
-- [ ] [141. 环形链表](src/main/java/com/leetcode/linkedlist/HasCycle.java) - 简单
-- [ ] [142. 环形链表 II](src/main/java/com/leetcode/linkedlist/DetectCycle.java) - 中等
-- [ ] [160. 相交链表](src/main/java/com/leetcode/linkedlist/GetIntersectionNode.java) - 简单
-- [ ] [206. 反转链表](src/main/java/com/leetcode/linkedlist/ReverseList.java) - 简单
-- [ ] [234. 回文链表](src/main/java/com/leetcode/linkedlist/IsPalindrome.java) - 简单
+- [√] [24. 两两交换链表中的节点](src/main/java/com/leetcode/linkedlist/SwapPairs.java) - 中等
+- [√] [141. 环形链表](src/main/java/com/leetcode/linkedlist/HasCycle.java) - 简单
+- [√] [142. 环形链表 II](src/main/java/com/leetcode/linkedlist/DetectCycle.java) - 中等
+- [√] [160. 相交链表](src/main/java/com/leetcode/linkedlist/GetIntersectionNode.java) - 简单
+- [√] [206. 反转链表](src/main/java/com/leetcode/linkedlist/ReverseList.java) - 简单
 - [ ] [19. 删除链表的倒数第 N 个结点](src/main/java/com/leetcode/linkedlist/RemoveNthFromEnd.java) - 中等
+- [ ] [234. 回文链表](src/main/java/com/leetcode/linkedlist/IsPalindrome.java) - 简单
 - [ ] [148. 排序链表](src/main/java/com/leetcode/linkedlist/SortList.java) - 中等
 
 ### 字符串
@@ -227,5 +229,5 @@ public class TwoSum {
 ⭐ 如果对你有帮助，欢迎 Star！
 
 **开始日期**: 2025-10-12  
-**最后更新**: 2025-10-20  
-**当前连续刷题**: 9天 🔥
+**最后更新**: 2025-10-24  
+**当前连续刷题**: 12天 🔥
