@@ -1,5 +1,7 @@
 package com.leetcode.utils;
 
+import java.util.Stack;
+
 /**
  * 链表节点定义
  * 用于链表相关的LeetCode题目
@@ -58,7 +60,19 @@ public class ListNode {
         }
         return arr;
     }
-    
+
+    public static Stack<Integer> toStack(ListNode head) {
+        if (head == null) {
+            return new Stack<>();
+        }
+        Stack<Integer> stack = new Stack<>();
+        while (head != null) {
+            stack.push(head.val);
+            head = head.next;
+        }
+        return stack;
+    }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();

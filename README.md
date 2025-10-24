@@ -2,7 +2,7 @@
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-Hot%20100-orange.svg)](https://leetcode.cn/studyplan/top-100-liked/)
 [![Language](https://img.shields.io/badge/Language-Java-blue.svg)](https://www.java.com/)
-[![Progress](https://img.shields.io/badge/进度-12%2F100-brightgreen.svg)](https://github.com/yourusername/leetcode-hot-100)
+[![Progress](https://img.shields.io/badge/进度-15%2F100-brightgreen.svg)](https://github.com/yourusername/leetcode-hot-100)
 
 ## 📖 项目介绍
 
@@ -19,7 +19,7 @@
 | 分类 | 已完成 | 总数 |
 |------|----|----|
 | 数组 | 4  | 15 |
-| 链表 | 7  | 14 |
+| 链表 | 10 | 14 |
 | 哈希表 | 1  | 6  |
 | 字符串 | 1  | 8  |
 | 双指针 | 1  | 7  |
@@ -33,7 +33,7 @@
 | 树 | 0  | 12 |
 | 图 | 0  | 6  |
 
-**总进度**: 12 / 100 ✨
+**总进度**: 15 / 100 ✨
 
 ## 📂 项目结构
 
@@ -67,6 +67,7 @@ leetcode-hot-100/
 ├── docs/                                   # 📝 刷题技巧总结文档
 │   ├── 前缀和+哈希表模板.md
 │   ├── 单调栈模板.md
+│   ├── 链表处理模板.md
 │   ├── 双指针技巧.md
 │   ├── 哈希表分组技巧.md
 │   └── ...
@@ -179,15 +180,19 @@ public class TwoSum {
 
 ### 链表
 - [√] [2. 两数相加](src/main/java/com/leetcode/linkedlist/AddTwoNumbers.java) - 中等
+- [√] [19. 删除链表的倒数第 N 个结点](src/main/java/com/leetcode/linkedlist/RemoveNthFromEnd.java) - 中等
 - [√] [21. 合并两个有序链表](src/main/java/com/leetcode/linkedlist/MergeTwoSortedLists.java) - 简单
 - [√] [24. 两两交换链表中的节点](src/main/java/com/leetcode/linkedlist/SwapPairs.java) - 中等
 - [√] [141. 环形链表](src/main/java/com/leetcode/linkedlist/HasCycle.java) - 简单
 - [√] [142. 环形链表 II](src/main/java/com/leetcode/linkedlist/DetectCycle.java) - 中等
 - [√] [160. 相交链表](src/main/java/com/leetcode/linkedlist/GetIntersectionNode.java) - 简单
 - [√] [206. 反转链表](src/main/java/com/leetcode/linkedlist/ReverseList.java) - 简单
-- [ ] [19. 删除链表的倒数第 N 个结点](src/main/java/com/leetcode/linkedlist/RemoveNthFromEnd.java) - 中等
-- [ ] [234. 回文链表](src/main/java/com/leetcode/linkedlist/IsPalindrome.java) - 简单
+- [√] [234. 回文链表](src/main/java/com/leetcode/linkedlist/IsPalindrome.java) - 简单
+- [√] [876. 链表的中间结点](src/main/java/com/leetcode/linkedlist/MiddleNode.java) - 简单
+- [ ] [138. 随机链表的复制](src/main/java/com/leetcode/linkedlist/CopyRandomList.java) - 中等
+- [ ] [146. LRU 缓存](src/main/java/com/leetcode/linkedlist/LRUCache.java) - 中等
 - [ ] [148. 排序链表](src/main/java/com/leetcode/linkedlist/SortList.java) - 中等
+- [ ] [23. 合并K个升序链表](src/main/java/com/leetcode/linkedlist/MergeKLists.java) - 困难
 
 ### 字符串
 - [√] [49. 字母异位词分组](src/main/java/com/leetcode/string/GroupAnagrams.java) - 中等
@@ -230,4 +235,4 @@ public class TwoSum {
 
 **开始日期**: 2025-10-12  
 **最后更新**: 2025-10-24  
-**当前连续刷题**: 12天 🔥
+**当前连续刷题**: 13天 🔥
