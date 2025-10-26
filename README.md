@@ -2,7 +2,7 @@
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-Hot%20100-orange.svg)](https://leetcode.cn/studyplan/top-100-liked/)
 [![Language](https://img.shields.io/badge/Language-Java-blue.svg)](https://www.java.com/)
-[![Progress](https://img.shields.io/badge/进度-16%2F100-brightgreen.svg)](https://github.com/yourusername/leetcode-hot-100)
+[![Progress](https://img.shields.io/badge/进度-21%2F100-brightgreen.svg)](https://github.com/yourusername/leetcode-hot-100)
 
 ## 📖 项目介绍
 
@@ -30,10 +30,10 @@
 | 动态规划 | 0  | 18 |
 | 回溯 | 0  | 6  |
 | 二分查找 | 0  | 5  |
-| 树 | 0  | 12 |
+| 树 | 5  | 12 | 🌲 入门完成
 | 图 | 0  | 6  |
 
-**总进度**: 16 / 100 ✨
+**总进度**: 21 / 100 ✨
 
 ## 📂 项目结构
 
@@ -193,6 +193,20 @@ public class TwoSum {
 - [ ] [138. 随机链表的复制](src/main/java/com/leetcode/linkedlist/CopyRandomList.java) - 中等
 - [ ] [148. 排序链表](src/main/java/com/leetcode/linkedlist/SortList.java) - 中等
 - [ ] [23. 合并K个升序链表](src/main/java/com/leetcode/linkedlist/MergeKLists.java) - 困难
+
+### 二叉树 🌲 入门完成
+- [√] [94. 二叉树的中序遍历](src/main/java/com/leetcode/tree/InorderTraversal.java) - 简单
+- [√] [101. 对称二叉树](src/main/java/com/leetcode/tree/IsSymmetric.java) - 简单
+- [√] [102. 二叉树的层序遍历](src/main/java/com/leetcode/tree/LevelOrder.java) - 中等
+- [√] [104. 二叉树的最大深度](src/main/java/com/leetcode/tree/MaxDepth.java) - 简单
+- [√] [226. 翻转二叉树](src/main/java/com/leetcode/tree/InvertTree.java) - 简单
+- [ ] [98. 验证二叉搜索树](src/main/java/com/leetcode/tree/IsValidBST.java) - 中等
+- [ ] [105. 从前序与中序遍历序列构造二叉树](src/main/java/com/leetcode/tree/BuildTree.java) - 中等
+- [ ] [114. 二叉树展开为链表](src/main/java/com/leetcode/tree/Flatten.java) - 中等
+- [ ] [199. 二叉树的右视图](src/main/java/com/leetcode/tree/RightSideView.java) - 中等
+- [ ] [230. 二叉搜索树中第K小的元素](src/main/java/com/leetcode/tree/KthSmallest.java) - 中等
+- [ ] [236. 二叉树的最近公共祖先](src/main/java/com/leetcode/tree/LowestCommonAncestor.java) - 中等
+- [ ] [437. 路径总和 III](src/main/java/com/leetcode/tree/PathSum.java) - 中等
 
 ### 字符串
 - [√] [49. 字母异位词分组](src/main/java/com/leetcode/string/GroupAnagrams.java) - 中等
