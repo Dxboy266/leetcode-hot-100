@@ -2,7 +2,7 @@
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-Hot%20100-orange.svg)](https://leetcode.cn/studyplan/top-100-liked/)
 [![Language](https://img.shields.io/badge/Language-Java-blue.svg)](https://www.java.com/)
-[![Progress](https://img.shields.io/badge/进度-21%2F100-brightgreen.svg)](https://github.com/yourusername/leetcode-hot-100)
+[![Progress](https://img.shields.io/badge/进度-27%2F100-brightgreen.svg)](https://github.com/yourusername/leetcode-hot-100)
 
 ## 📖 项目介绍
 
@@ -27,13 +27,13 @@
 | 栈 | 2  | 5  |
 | 堆 | 0  | 4  |
 | 贪心 | 0  | 6  |
-| 动态规划 | 0  | 18 |
+| 动态规划 | 2  | 18 | 🧠 入门完成
 | 回溯 | 0  | 6  |
 | 二分查找 | 0  | 5  |
-| 树 | 5  | 12 | 🌲 入门完成
+| 树 | 9  | 12 | 🌲 进阶完成
 | 图 | 0  | 6  |
 
-**总进度**: 21 / 100 ✨
+**总进度**: 27 / 100 ✨
 
 ## 📂 项目结构
 
@@ -194,19 +194,25 @@ public class TwoSum {
 - [ ] [148. 排序链表](src/main/java/com/leetcode/linkedlist/SortList.java) - 中等
 - [ ] [23. 合并K个升序链表](src/main/java/com/leetcode/linkedlist/MergeKLists.java) - 困难
 
-### 二叉树 🌲 入门完成
+### 二叉树 🌲 进阶完成
 - [√] [94. 二叉树的中序遍历](src/main/java/com/leetcode/tree/InorderTraversal.java) - 简单
+- [√] [144. 二叉树的前序遍历](src/main/java/com/leetcode/tree/PreorderTraversal.java) - 简单
 - [√] [101. 对称二叉树](src/main/java/com/leetcode/tree/IsSymmetric.java) - 简单
 - [√] [102. 二叉树的层序遍历](src/main/java/com/leetcode/tree/LevelOrder.java) - 中等
 - [√] [104. 二叉树的最大深度](src/main/java/com/leetcode/tree/MaxDepth.java) - 简单
 - [√] [226. 翻转二叉树](src/main/java/com/leetcode/tree/InvertTree.java) - 简单
-- [ ] [98. 验证二叉搜索树](src/main/java/com/leetcode/tree/IsValidBST.java) - 中等
+- [√] [98. 验证二叉搜索树](src/main/java/com/leetcode/tree/IsValidBST.java) - 中等
+- [√] [236. 二叉树的最近公共祖先](src/main/java/com/leetcode/tree/LowestCommonAncestor.java) - 中等 ⭐ 核心题
+- [√] [543. 二叉树的直径](src/main/java/com/leetcode/tree/DiameterOfBinaryTree.java) - 简单
 - [ ] [105. 从前序与中序遍历序列构造二叉树](src/main/java/com/leetcode/tree/BuildTree.java) - 中等
 - [ ] [114. 二叉树展开为链表](src/main/java/com/leetcode/tree/Flatten.java) - 中等
 - [ ] [199. 二叉树的右视图](src/main/java/com/leetcode/tree/RightSideView.java) - 中等
 - [ ] [230. 二叉搜索树中第K小的元素](src/main/java/com/leetcode/tree/KthSmallest.java) - 中等
-- [ ] [236. 二叉树的最近公共祖先](src/main/java/com/leetcode/tree/LowestCommonAncestor.java) - 中等
 - [ ] [437. 路径总和 III](src/main/java/com/leetcode/tree/PathSum.java) - 中等
+
+### 动态规划 🧠 入门完成
+- [√] [70. 爬楼梯](src/main/java/com/leetcode/dp/ClimbStairs.java) - 简单（DP数组/滚动变量/记忆化）
+- [√] [53. 最大子数组和](src/main/java/com/leetcode/dp/MaxSubArray.java) - 中等（Kadane/DP/前缀和/分治/线段树）
 
 ### 字符串
 - [√] [49. 字母异位词分组](src/main/java/com/leetcode/string/GroupAnagrams.java) - 中等
