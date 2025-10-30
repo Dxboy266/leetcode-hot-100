@@ -213,6 +213,7 @@ public class TwoSum {
 ### 动态规划 🧠 入门完成
 - [√] [70. 爬楼梯](src/main/java/com/leetcode/dp/ClimbStairs.java) - 简单（DP数组/滚动变量/记忆化）
 - [√] [53. 最大子数组和](src/main/java/com/leetcode/dp/MaxSubArray.java) - 中等（Kadane/DP/前缀和/分治/线段树）
+- [√] [198. 打家劫舍](src/main/java/com/leetcode/dp/Rob.java) - 中等（DP数组/滚动变量/记忆化搜索）
 
 ### 字符串
 - [√] [49. 字母异位词分组](src/main/java/com/leetcode/string/GroupAnagrams.java) - 中等
