@@ -2,7 +2,7 @@
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-Hot%20100-orange.svg)](https://leetcode.cn/studyplan/top-100-liked/)
 [![Language](https://img.shields.io/badge/Language-Java-blue.svg)](https://www.java.com/)
-[![Progress](https://img.shields.io/badge/进度-27%2F100-brightgreen.svg)](https://github.com/yourusername/leetcode-hot-100)
+[![Progress](https://img.shields.io/badge/进度-30%2F100-brightgreen.svg)](https://github.com/yourusername/leetcode-hot-100)
 
 ## 📖 项目介绍
 
@@ -18,7 +18,7 @@
 
 | 分类 | 已完成 | 总数 |
 |------|----|----|
-| 数组 | 4  | 15 |
+| 数组 | 5  | 15 |
 | 链表 | 11 | 14 | ⭐ 基础完成
 | 哈希表 | 1  | 6  |
 | 字符串 | 1  | 8  |
@@ -27,13 +27,13 @@
 | 栈 | 2  | 5  |
 | 堆 | 0  | 4  |
 | 贪心 | 0  | 6  |
-| 动态规划 | 2  | 18 | 🧠 入门完成
+| 动态规划 | 5  | 18 | 🧠 核心完成
 | 回溯 | 0  | 6  |
 | 二分查找 | 0  | 5  |
 | 树 | 9  | 12 | 🌲 进阶完成
 | 图 | 0  | 6  |
 
-**总进度**: 27 / 100 ✨
+**总进度**: 30 / 100 ✨
 
 ## 📂 项目结构
 
@@ -65,9 +65,11 @@ leetcode-hot-100/
 │                   ├── array/
 │                   └── ...
 ├── docs/                                   # 📝 刷题技巧总结文档
+│   ├── 动态规划模板.md                    # ⭐ DP 核心模板（完全背包+LIS）
+│   ├── 二叉树处理模板.md
+│   ├── 链表处理模板.md
 │   ├── 前缀和+哈希表模板.md
 │   ├── 单调栈模板.md
-│   ├── 链表处理模板.md
 │   ├── 双指针技巧.md
 │   ├── 哈希表分组技巧.md
 │   └── ...
@@ -157,6 +159,7 @@ public class TwoSum {
 - [√] [283. 移动零](src/main/java/com/leetcode/array/MoveZeroes.java) - 简单
 - [√] [128. 最长连续序列](src/main/java/com/leetcode/array/LongestConsecutiveSequence.java) - 中等
 - [√] [560. 和为K的子数组](src/main/java/com/leetcode/array/SubarraySumEqualsK.java) - 中等
+- [√] [1526. 形成目标数组的子数组最少增加次数](src/main/java/com/leetcode/array/MinNumberOperations.java) - 困难
 - [ ] [53. 最大子数组和](src/main/java/com/leetcode/array/MaxSubArray.java) - 中等
 - [ ] [88. 合并两个有序数组](src/main/java/com/leetcode/array/MergeSortedArray.java) - 简单
 - [ ] [169. 多数元素](src/main/java/com/leetcode/array/MajorityElement.java) - 简单
@@ -210,10 +213,16 @@ public class TwoSum {
 - [ ] [230. 二叉搜索树中第K小的元素](src/main/java/com/leetcode/tree/KthSmallest.java) - 中等
 - [ ] [437. 路径总和 III](src/main/java/com/leetcode/tree/PathSum.java) - 中等
 
-### 动态规划 🧠 入门完成
+### 动态规划 🧠 核心完成
 - [√] [70. 爬楼梯](src/main/java/com/leetcode/dp/ClimbStairs.java) - 简单（DP数组/滚动变量/记忆化）
 - [√] [53. 最大子数组和](src/main/java/com/leetcode/dp/MaxSubArray.java) - 中等（Kadane/DP/前缀和/分治/线段树）
 - [√] [198. 打家劫舍](src/main/java/com/leetcode/dp/Rob.java) - 中等（DP数组/滚动变量/记忆化搜索）
+- [√] [300. 最长递增子序列](src/main/java/com/leetcode/dp/LengthOfLIS.java) - 中等 ⭐（DP/贪心+二分/记忆化）
+- [√] [322. 零钱兑换](src/main/java/com/leetcode/dp/CoinChange.java) - 中等 ⭐（完全背包/记忆化/BFS）
+- [ ] [139. 单词拆分](src/main/java/com/leetcode/dp/WordBreak.java) - 中等
+- [ ] [152. 乘积最大子数组](src/main/java/com/leetcode/dp/MaxProduct.java) - 中等
+- [ ] [279. 完全平方数](src/main/java/com/leetcode/dp/NumSquares.java) - 中等
+- [ ] [5. 最长回文子串](src/main/java/com/leetcode/dp/LongestPalindrome.java) - 中等
 
 ### 字符串
 - [√] [49. 字母异位词分组](src/main/java/com/leetcode/string/GroupAnagrams.java) - 中等
@@ -255,5 +264,15 @@ public class TwoSum {
 ⭐ 如果对你有帮助，欢迎 Star！
 
 **开始日期**: 2025-10-12  
-**最后更新**: 2025-10-24  
-**当前连续刷题**: 13天 🔥
+**最后更新**: 2025-11-02  
+**当前连续刷题**: 23天 🔥
+
+## 📚 专题模板文档
+
+- [动态规划核心模板 🧠](docs/动态规划模板.md) ⭐ **完全背包、子序列问题、贪心+二分**
+- [二叉树处理模板](docs/二叉树处理模板.md)
+- [链表处理模板](docs/链表处理模板.md)
+- [前缀和+哈希表模板](docs/前缀和+哈希表模板.md)
+- [单调栈模板](docs/单调栈模板.md)
+- [双指针技巧](docs/双指针技巧.md)
+- [哈希表分组技巧](docs/哈希表分组技巧.md)
