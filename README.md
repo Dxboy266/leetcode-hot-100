@@ -21,9 +21,9 @@
 | 数组 | 5  | 15 |
 | 链表 | 11 | 14 | ⭐ 基础完成
 | 哈希表 | 1  | 6  |
-| 字符串 | 1  | 8  |
+| 字符串 | 2  | 8  |
 | 双指针 | 1  | 7  |
-| 滑动窗口 | 0  | 4  |
+| 滑动窗口 | 1  | 4  | 🪟 入门完成
 | 栈 | 2  | 5  |
 | 堆 | 0  | 4  |
 | 贪心 | 0  | 6  |
@@ -31,9 +31,9 @@
 | 回溯 | 0  | 6  |
 | 二分查找 | 0  | 5  |
 | 树 | 9  | 12 | 🌲 进阶完成
-| 图 | 0  | 6  |
+| 图 | 1  | 6  | 📊 拓扑排序完成
 
-**总进度**: 30 / 100 ✨
+**总进度**: 32 / 100 ✨
 
 ## 📂 项目结构
 
@@ -224,15 +224,23 @@ public class TwoSum {
 - [ ] [279. 完全平方数](src/main/java/com/leetcode/dp/NumSquares.java) - 中等
 - [ ] [5. 最长回文子串](src/main/java/com/leetcode/dp/LongestPalindrome.java) - 中等
 
-### 字符串
+### 字符串 / 滑动窗口
 - [√] [49. 字母异位词分组](src/main/java/com/leetcode/string/GroupAnagrams.java) - 中等
+- [√] [3. 无重复字符的最长子串](src/main/java/com/leetcode/string/LongestSubstringWithoutRepeating.java) - 中等 ⭐（滑动窗口）
 - [ ] [242. 有效的字母异位词](src/main/java/com/leetcode/string/IsAnagram.java) - 简单
-- [ ] [438. 找到字符串中所有字母异位词](src/main/java/com/leetcode/string/FindAnagrams.java) - 中等
-- [ ] [567. 字符串的排列](src/main/java/com/leetcode/string/CheckInclusion.java) - 中等
-- [ ] [76. 最小覆盖子串](src/main/java/com/leetcode/string/MinWindow.java) - 困难
-- [ ] [3. 无重复字符的最长子串](src/main/java/com/leetcode/string/LengthOfLongestSubstring.java) - 中等
+- [ ] [438. 找到字符串中所有字母异位词](src/main/java/com/leetcode/string/FindAnagrams.java) - 中等（滑动窗口）
+- [ ] [567. 字符串的排列](src/main/java/com/leetcode/string/CheckInclusion.java) - 中等（滑动窗口）
+- [ ] [76. 最小覆盖子串](src/main/java/com/leetcode/string/MinWindow.java) - 困难 ⭐（滑动窗口）
 - [ ] [5. 最长回文子串](src/main/java/com/leetcode/string/LongestPalindrome.java) - 中等
 - [ ] [647. 回文子串](src/main/java/com/leetcode/string/CountSubstrings.java) - 中等
+
+### 图论 📊 拓扑排序完成
+- [√] [207. 课程表](src/main/java/com/leetcode/graph/CourseSchedule.java) - 中等 ⭐（拓扑排序/判环）
+- [ ] [210. 课程表 II](src/main/java/com/leetcode/graph/CourseScheduleII.java) - 中等（拓扑排序序列）
+- [ ] [200. 岛屿数量](src/main/java/com/leetcode/graph/NumIslands.java) - 中等（DFS/BFS）
+- [ ] [994. 腐烂的橘子](src/main/java/com/leetcode/graph/OrangesRotting.java) - 中等（BFS）
+- [ ] [128. 最长连续序列](src/main/java/com/leetcode/graph/LongestConsecutive.java) - 中等（并查集）
+- [ ] [684. 冗余连接](src/main/java/com/leetcode/graph/FindRedundantConnection.java) - 中等（并查集）
 
 ## 🛠️ 技术栈
 
@@ -264,12 +272,15 @@ public class TwoSum {
 ⭐ 如果对你有帮助，欢迎 Star！
 
 **开始日期**: 2025-10-12  
-**最后更新**: 2025-11-02  
-**当前连续刷题**: 23天 🔥
+**最后更新**: 2025-11-09  
+**当前连续刷题**: 23天 🔥  
+**本次新增**: 2题 + 2个专题模板（滑动窗口、拓扑排序）
 
 ## 📚 专题模板文档
 
 - [动态规划核心模板 🧠](docs/动态规划模板.md) ⭐ **完全背包、子序列问题、贪心+二分**
+- [滑动窗口模板 🪟](docs/滑动窗口模板.md) ⭐ **无重复字符、最小覆盖子串** - 新增
+- [图论-拓扑排序模板 📊](docs/图论-拓扑排序模板.md) ⭐ **BFS Kahn算法、DFS三色标记** - 新增
 - [二叉树处理模板](docs/二叉树处理模板.md)
 - [链表处理模板](docs/链表处理模板.md)
 - [前缀和+哈希表模板](docs/前缀和+哈希表模板.md)
